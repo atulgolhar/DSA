@@ -1,0 +1,4 @@
+let myArray = [92, 60, 112, 14, 56, 21, 10];
+const under57 = (value) => value < 57;
+console.log(myArray.find(under57));    // object.method.predicate
+
